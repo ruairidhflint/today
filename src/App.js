@@ -1,17 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const StyledHeader = styled.h1`
-  font-size: 2rem;
-  font-family: 'Muli';
-    color: #E50914;
-`;
+import { ThemeProvider } from 'styled-components';
+import { Theme } from './styles/theme';
+import GlobalStyle from './styles/globalTheme';
 
 function App() {
   return (
-    <div className="App">
-      <StyledHeader><span>to</span>day</StyledHeader>
-    </div>
+    <ThemeProvider theme={Theme}>
+      <GlobalStyle />
+      <div className="App"></div>
+    </ThemeProvider>
   );
 }
 
