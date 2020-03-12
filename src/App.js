@@ -4,8 +4,8 @@ import { Route } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 
 // Styling Imports
-import { Theme } from './styles/theme';
-import GlobalStyle from './styles/globalTheme';
+import { Theme } from './Styles/theme';
+import GlobalStyle from './Styles/globalTheme.js';
 
 // Component Imports
 import LandingPage from './Views/LandingPage';

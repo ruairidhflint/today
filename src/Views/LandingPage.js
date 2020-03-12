@@ -1,7 +1,10 @@
 import React from 'react';
 
+// Component Imports
+import Navbar from '../Components/LandingComponents/Navbar';
+
 function LandingPage() {
-    return <h1>Hello!</h1>
+    return <Navbar />
 }
 
 export default LandingPage;
