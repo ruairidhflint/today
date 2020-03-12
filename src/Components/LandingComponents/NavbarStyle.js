@@ -4,24 +4,14 @@ export const StyledNavbar = styled.div`
   width: 100%;
   height: 60px;
   nav {
-    max-width: 1200px;
+    max-width: 1100px;
     height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15rem;
-    padding-right: 15rem;
-
-    @media (max-width: 800px) {
-      padding-left: 5rem;
-      padding-right: 5rem;
-    }
-
-    @media (max-width: 450px) {
-      padding-left: 1rem;
-      padding-right: 1rem;
-    }
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     .auth-buttons {
       display: flex;
@@ -34,8 +24,8 @@ export const StyledNavbar = styled.div`
       font-size: 1.6rem;
 
       @media (max-width: 450px) {
-        width: 10rem;
-        font-size: 1.3rem;
+        width: 9rem;
+        font-size: 1.2rem;
       }
 
       a {
