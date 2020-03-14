@@ -9,7 +9,7 @@ border: 1px solid red;
 
 function Hero() {
     return (
-        <StyledHero></StyledHero>
+        <StyledHero><h1>Hero</h1></StyledHero>
     )
 }
 

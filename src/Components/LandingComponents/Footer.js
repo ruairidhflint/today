@@ -9,7 +9,7 @@ border: 1px solid red;
 
 function Footer() {
     return (
-        <StyledFooter></StyledFooter>
+        <StyledFooter><h1>Footer</h1></StyledFooter>
     )
 }
 

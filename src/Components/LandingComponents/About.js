@@ -9,7 +9,7 @@ border: 1px solid red;
 
 function About() {
     return (
-        <StyledAbout></StyledAbout>
+        <StyledAbout><h1>About</h1></StyledAbout>
     )
 }
 
