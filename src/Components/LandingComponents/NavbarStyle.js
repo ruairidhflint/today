@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledNavbar = styled.div`
   width: 100%;
-  height: 60px;
+  height: 60px; 
   nav {
     max-width: 1100px;
     height: 100%;
