@@ -2,9 +2,12 @@ import styled from 'styled-components';
 
 export const StyledNavbar = styled.div`
   width: 100%;
-  height: 60px; 
+  height: 6rem;
+  position: fixed;
+  top: 0;
+
   nav {
-    max-width: 1100px;
+    max-width: 1250px;
     height: 100%;
     margin: 0 auto;
     display: flex;
