@@ -5,6 +5,7 @@ export const StyledNavbar = styled.div`
   height: 6rem;
   position: fixed;
   top: 0;
+  background-color: white;
 
   nav {
     max-width: 1250px;
