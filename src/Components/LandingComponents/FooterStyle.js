@@ -13,4 +13,8 @@ export const StyledFooter = styled.nav`
     text-decoration: none;
     color: ${props => props.theme.darkText};
   }
+
+  @media(max-width: 380px) {
+    font-size: 1.3rem;
+  }
 `;
