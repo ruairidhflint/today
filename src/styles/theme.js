@@ -4,6 +4,6 @@ export const Theme = {
 
   white: '#FFFFFF',
   darkText: '#202020',
-  lightText: '#616161',
+  lightText: '#999999',
   logoText: '#E50914',
 };
