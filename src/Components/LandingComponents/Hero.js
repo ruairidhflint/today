@@ -17,7 +17,12 @@ const StyledHeroContainer = styled.div`
 function Hero() {
   return (
     <StyledHero>
-      <StyledHeroContainer></StyledHeroContainer>
+      <StyledHeroContainer>
+          <div className="left">
+              <h2>Test</h2>
+          </div>
+          <div className="right"></div>
+      </StyledHeroContainer>
     </StyledHero>
   );
 }
